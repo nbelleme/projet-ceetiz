@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class Cli {
 
     public static void main(String... args){
-
-        ;
-
         try(Scanner command = new Scanner(System.in)) {
             System.out.println("Enter command: ");
             boolean running = true;
@@ -15,7 +12,7 @@ public class Cli {
             while(running){
 
                 switch(command.nextLine()){
-                    case "start":
+                    case "create":
                         System.out.println("Machine started!");
                         break;
 

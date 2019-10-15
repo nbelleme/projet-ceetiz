@@ -7,6 +7,13 @@
     <name>Projet Ceetiz</name>
     <description>Projet de recrutement Ceetiz par Nicolas Bellème</description>
 
+    <properties>
+        <java.version>11</java.version>
+
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

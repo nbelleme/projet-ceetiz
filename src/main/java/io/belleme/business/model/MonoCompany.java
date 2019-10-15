@@ -7,11 +7,18 @@ public class MonoCompany extends Company {
         return turnover * 0.25;
     }
 
-    private MonoCompany(){
+    private MonoCompany() {
 
     }
 
-    public static Builder builder(){
+    @Override
+    public String toString() {
+        return "Siret='" + siret + '\'' +
+                ", Name='" + name + '\'' +
+                ", Rurnover=" + turnover;
+    }
+
+    public static Builder builder() {
         return new Builder();
     }
 
@@ -47,4 +54,6 @@ public class MonoCompany extends Company {
             return monoCompany;
         }
     }
+
+
 }

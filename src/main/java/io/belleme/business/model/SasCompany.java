@@ -8,12 +8,16 @@ public class SasCompany extends Company {
 
     }
 
-    public static Builder builder() {
-        return new Builder();
+    @Override
+    public String toString() {
+        return "Siret='" + siret + '\'' +
+                ", Name='" + name + '\'' +
+                ", Turnover=" + turnover +
+                ", Address='" + address + '\'';
     }
 
-    public String getAddress() {
-        return address;
+    public static Builder builder() {
+        return new Builder();
     }
 
     @Override

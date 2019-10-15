@@ -1,0 +1,18 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.belleme</groupId>
+    <artifactId>projet-ceetiz</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>Projet Ceetiz</name>
+    <description>Projet de recrutement Ceetiz par Nicolas Bellème</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

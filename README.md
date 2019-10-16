@@ -38,4 +38,7 @@ Pour lancer le programme, utiliser la commande
 Les informations concernant l'entreprise vous seront alors demandées. Une fois ces informations entrées, le programme 
 calculera les impôts de l'entreprise automatiquement.
 
-## Tester le  
+## Tester le programmer
+
+Pour tester le programme, utiliser la commande :
+`mvn test` 
